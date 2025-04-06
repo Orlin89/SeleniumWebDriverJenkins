@@ -25,7 +25,7 @@ namespace TestProject3
             Directory.CreateDirectory(userDataDir);
 
             // Create object of ChromeDriver
-            driver = new ChromeDriver(userDataDir);
+            driver = new ChromeDriver(options);
 
             // Add implicit wait
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
