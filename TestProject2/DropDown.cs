@@ -5,7 +5,7 @@ using System.Collections.ObjectModel;
 using static System.Net.Mime.MediaTypeNames;
 using System.Xml.Linq;
 
-namespace TestProject3
+namespace TestProject2
 {
     [TestFixture]
     public class WorkingWithDropDown
