@@ -2,9 +2,9 @@ pipeline{
     agent any
 	
 	stages{
-	    stage('Checkout the code'){
+	    stage('Checkout git code'){
 		    steps{
-			    git branch: main, url: 'https://github.com/Orlin89/SeleniumWebDriverJenkins'
+			    git branch: 'main', url: 'https://github.com/Orlin89/SeleniumWebDriverJenkins'
 			}
 		}
 		
